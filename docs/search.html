@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="EN">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" id="nsd-bootstrap-theme-stylesheet"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.min.js"></script>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/css/app.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/themes/default/style.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/styles/default.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.css"/>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/common.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/dark-head.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jstree@3.3.11/dist/jstree.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.3.1/build/highlight.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap-vue@2.21.2/dist/bootstrap-vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/Nasdanika/html@master/model/app.gen/web-resources/js/components/table.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script><!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-9BRJVLK8CC"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-9BRJVLK8CC');
+</script>    
+</head>
+  <body>
+    <div class="container-fluid nsd-app-container">
+      <div class="row">
+        <div class="col nsd-app-header">
+          <a href="https://www.nasdanika.org" title="Root action" data-nsd-label-uuid="3c51362f-8639-4a74-8b7e-ce2788dca0ae" class="nsd-app-header-title">
+            <img src="https://docs.nasdanika.org/images/nasdanika-logo.png" class="nsd-app-label-icon"/>Nasdanika</a>
+          <ul class="nav nsd-app-header-navs">
+            <li class="nav-item"><span data-nsd-label-uuid="d1d7db6d-c687-497f-b74e-555293bbd7e0" class="navbar-text"><span class="fas fa-search nsd-app-label-icon"></span>Search</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col nsd-app-navbar">
+          <ul class="navbar navbar-light navbar-expand-lg">
+            <a href="index.html" title="Principal action" data-nsd-label-uuid="b98ff549-920a-4307-8089-3f1bb33cf037" class="navbar-brand"><span class="fab fa-aws nsd-app-label-icon"></span>My AWS Solution</a>
+            <button type="button" data-toggle="collapse" data-target="#nsd_5e" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
+            </button>
+            <div id="nsd_5e" class="collapse navbar-collapse"></div>
+          </ul>
+        </div>
+      </div>
+      <div class="row nsd-app-content-row">
+        <div class="col nsd-app-navigation-panel">
+          <div class="card">
+            <div class="card-header"><span data-toggle="collapse" data-target="#nsd-app-nav-item-965f3c71-ba61-48b8-93d9-4da2218423ef-collapsible" aria-expanded="true" aria-controls="nsd-app-nav-item-965f3c71-ba61-48b8-93d9-4da2218423ef-collapsible" title="Toggle card" id="nsd-app-nav-item-965f3c71-ba61-48b8-93d9-4da2218423ef-collapsible-trigger" class="nsd-collapsible-trigger"><i aria-hidden="true" class="fa"></i></span>
+              <a href="cloud/index.html"><span class="fas fa-cloud nsd-app-label-icon"></span>AWS Cloud</a>
+            </div>
+            <div id="nsd-app-nav-item-965f3c71-ba61-48b8-93d9-4da2218423ef-collapsible" class="list-group list-group-flush nsd-collapsible collapse show">
+              <a href="cloud/s3.html" data-nsd-label-uuid="d679e16f-bcae-49e0-ae7d-42df3319e0c5" class="list-group-item list-group-action">S3 Bucket</a>
+              <a href="cloud/code-pipeline.html" data-nsd-label-uuid="c75df6bc-7045-49b9-8e3b-f843670c2ea8" class="list-group-item list-group-action">CodePipeline</a>
+              <a href="cloud/organizations.html" data-nsd-label-uuid="41af391b-fb24-4691-a09f-7ef2fe70fb10" class="list-group-item list-group-action">Organizations</a>
+              <a href="cloud/sso.html" data-nsd-label-uuid="c0c3c66e-77a1-46ef-8d31-f9a71b2cd353" class="list-group-item list-group-action">Single Sign-on</a>
+              <a href="cloud/account-baseline.html" data-nsd-label-uuid="b784293d-b03a-4604-a200-ae2e17e6e3dd" class="list-group-item list-group-action">Account Baseline</a>
+              <a href="cloud/service-catalog.html" data-nsd-label-uuid="cfc80a56-6223-40ac-ba0f-d9766f0e710d" class="list-group-item list-group-action">Service Catalog</a>
+              <a href="cloud/parameter-store.html" data-nsd-label-uuid="64773b3b-3113-4d30-9d93-092050ed7708" class="list-group-item list-group-action">Parameter Store</a>
+              <a href="cloud/core-ou.html" data-nsd-label-uuid="0d2df78b-e41f-4518-b149-47aea59e6cd5" class="list-group-item list-group-action">Core OU</a>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header"><span data-toggle="collapse" data-target="#nsd-app-nav-item-42ed2c80-0411-4bd4-bdcf-43d85168d8a3-collapsible" aria-expanded="true" aria-controls="nsd-app-nav-item-42ed2c80-0411-4bd4-bdcf-43d85168d8a3-collapsible" title="Toggle card" id="nsd-app-nav-item-42ed2c80-0411-4bd4-bdcf-43d85168d8a3-collapsible-trigger" class="nsd-collapsible-trigger"><i aria-hidden="true" class="fa"></i></span>
+              <a>Accounts</a>
+            </div>
+            <div id="nsd-app-nav-item-42ed2c80-0411-4bd4-bdcf-43d85168d8a3-collapsible" class="card-body p-1 nsd-collapsible collapse show">
+              <input type="text" id="nsd_60_searchInput" title="Full-text search. You can use wildcards, e.g. 'foo*' or 'f*o'; title or content fields, e.g. 'title:foo* bar'; boosts, e.g. 'foo^10 bar'; fuzzy matches, e.g. 'foo~1'; and term presence, e.g. '+foo bar -baz'" class="form-control"/>
+              <div id="6e9dbe33-77da-4ad5-b6cc-e546648cc866-navigation-panel-nsd-app-nav-item-42ed2c80-0411-4bd4-bdcf-43d85168d8a3"></div>
+            </div>
+          </div>
+          <script>$(document).ready( function() {
+$('#6e9dbe33-77da-4ad5-b6cc-e546648cc866-navigation-panel-nsd-app-nav-item-42ed2c80-0411-4bd4-bdcf-43d85168d8a3').jstree(function(tree) { tree.state.filter = function(state) { delete state.core.selected; return state; };  tree.search.search_callback = function(searchStr, node) { if (typeof window.nsdJsTreeSearchCallback === 'function') return window.nsdJsTreeSearchCallback(searchStr, node); var sf = new $.vakata.search(searchStr, true, { caseSensitive : false, fuzzy : false }); return sf.search(node.text).isMatch; }; return tree; }({"core":{"data":[{"a_attr":{"onclick":"window.location='accounts/shared-services/index.html';"},"children":[{"a_attr":{"onclick":"window.location='accounts/shared-services/account-baseline.html';"},"data-nsd-label-uuid":"ef4fbb63-f294-4c04-961e-19bf130e3686","id":"nsd-app-nav-item-914c59b6-418b-492a-8a10-70683817a074","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/shared-services/vpc.html';"},"data-nsd-label-uuid":"f7620768-b3d2-4fbc-968d-cdae2942c8d5","id":"nsd-app-nav-item-73f70da1-eead-4cd6-8859-5eb381e71a6b","text":"VPC","type":"leaf"}],"data-nsd-label-uuid":"662313a3-445a-486b-9d67-01d0e91dcb04","id":"nsd-app-nav-item-e7c6aa3e-1b73-42ae-909f-cd4bfc3364ce","text":"Shared Services"},{"a_attr":{"onclick":"window.location='accounts/log-archive/index.html';"},"children":[{"a_attr":{"onclick":"window.location='accounts/log-archive/account-baseline.html';"},"data-nsd-label-uuid":"b5784d1f-f2d3-4f1c-be2e-1d9393532ff8","id":"nsd-app-nav-item-14c4d3e5-5c9c-4b31-b7e3-e5912fd9f4d3","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/log-archive/cloud-trail-and-config-logs.html';"},"data-nsd-label-uuid":"453b51b5-e2c7-4a66-9e8e-bb085d20b410","id":"nsd-app-nav-item-1c68e9cf-79e6-4545-aba9-9309bbc10053","text":"Aggregate CloudTrail and Config Logs","type":"leaf"}],"data-nsd-label-uuid":"1df47567-c9da-401a-b721-f17c235541b8","id":"nsd-app-nav-item-b18c82f5-6cb7-4704-b23d-6f9dbfa66454","text":"Log Archive"},{"a_attr":{"onclick":"window.location='accounts/security/index.html';"},"children":[{"a_attr":{"onclick":"window.location='accounts/security/account-baseline.html';"},"data-nsd-label-uuid":"ac7b87c2-2f98-4fd4-a9ee-8417bdbb65c1","id":"nsd-app-nav-item-0bc3ebe7-a78b-4c8d-a422-403892a40e8a","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/security/security-cross-account-roles.html';"},"data-nsd-label-uuid":"62c247a5-9347-47e4-88be-b1f2c1b16c54","icon":"fas fa-key","id":"nsd-app-nav-item-22bde9c8-c91d-45be-980c-96ab59242293","text":"Security Cross-Account Roles","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/security/guard-duty.html';"},"data-nsd-label-uuid":"c7a0e48a-d8c9-4575-b03f-37d17954c478","id":"nsd-app-nav-item-2f235383-587d-4bed-b83c-80e485496e77","text":"GuardDuty","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/security/sns.html';"},"data-nsd-label-uuid":"a3584f8e-0663-4a22-b8ed-f71010795fc7","id":"nsd-app-nav-item-3e1c767e-29ea-4a55-9ac6-3707ab0db8a2","text":"SNS","type":"leaf"}],"data-nsd-label-uuid":"fe005557-4b57-4ade-96f5-b2fbd48223a0","id":"nsd-app-nav-item-f3c4140a-8e94-47c4-a3fb-f58fc4bb1695","text":"Security"}]},"search":{"show_only_matches":true,"show_only_matches_children":true},"types":{"leaf":{"icon":"jstree-file"}},"plugins":["state","type","search"],"state":{"key":"6e9dbe33-77da-4ad5-b6cc-e546648cc866-navigation-panel"}}));
+// Tokens: searchInputSelector, timer, treeSelector
+$('#nsd_60_searchInput').keyup(function () {
+    if (window['nsd_jstTreeSearchTimer_nsd_61']) { 
+		clearTimeout(window['nsd_jstTreeSearchTimer_nsd_61']); 
+	}
+    window['nsd_jstTreeSearchTimer_nsd_61'] = setTimeout(function () {
+      var v = $('#nsd_60_searchInput').val();
+      $('#6e9dbe33-77da-4ad5-b6cc-e546648cc866-navigation-panel-nsd-app-nav-item-42ed2c80-0411-4bd4-bdcf-43d85168d8a3').jstree(true).search(v);
+    }, 250);
+  });
+
+});</script>
+        </div>
+        <div data-nsd-label-uuid="d1d7db6d-c687-497f-b74e-555293bbd7e0" class="col nsd-app-content-panel">
+          <div class="container-fluid">
+            <div class="row nsd-app-content-panel-title-and-items-row">
+              <div class="col-auto">
+                <H1><span data-nsd-label-uuid="d1d7db6d-c687-497f-b74e-555293bbd7e0" class="nsd-app-content-panel-title"><span class="fas fa-search nsd-app-label-icon"></span>Search</span>
+                </H1>
+              </div>
+            </div>
+            <div class="row nsd-app-content-panel-content-row">
+              <div class="col">
+                <div class="container-fluid">
+                  <div class="row">
+                    <div class="col">		<script src="https://unpkg.com/lunr/lunr.js"></script>     
+		<script src="search-documents.js"></script>     
+		<!-- TODO - tree binding script here site-map-tree.js -->
+     	<div id="search-app" class="container-fluid">
+     		<div class="row">
+     			<div class="col">
+					<b-form-group
+			          label="Filter"
+			          label-for="filter-input"
+			          label-cols-sm="3"
+			          label-align-sm="right"
+			          label-size="sm"
+			          class="mb-0"
+					  description="You can use wildcards, e.g. 'foo*' or 'f*o'; title or content fields, e.g. 'title:foo* bar'; boosts, e.g. 'foo^10 bar'; fuzzy matches, e.g. 'foo~1'; and term presence, e.g. '+foo bar -baz'"	          
+			        >
+			          <b-input-group size="sm">
+			            <b-form-input
+			              id="filter-input"
+			              v-model="filter"
+			              type="search"
+			              placeholder="Type to Search"
+			            ></b-form-input>
+			
+			            <b-input-group-append>
+			              <b-button :disabled="!filter" @click="filter = ''">Clear</b-button>
+			            </b-input-group-append>
+			          </b-input-group>
+			        </b-form-group>		
+     			</div>     		
+     		</div>
+	        
+	        <div class="row flex-nowrap">
+	        	<div class="col-auto border-right border-secondary pb-1">
+	        		<div id="nsd-site-map-tree">
+	        		</div>
+	        	</div>
+	        	<div class="col">
+			        <b-card 
+			        	v-for="searchResult in searchResults" 
+			        	:header-html="searchResult.title" 
+			        	:footer="searchResult.path"
+			        	class="my-1"
+			        	>
+			        	
+			        	<b-card-text><span v-html="searchResult.content"></span></b-card-text>
+			        </b-card>
+	        	</div>
+	        </div>	        
+     	</div>
+     
+		<script>		      
+			new Vue({
+				  el: '#search-app',
+				  data: {
+			        	filter: null,
+				      searchIndex : lunr(function () {
+						  this.ref('url');
+						  this.field('title');
+						  this.field('content');
+						  this.metadataWhitelist = ['position'];
+	
+						  for (const key in searchDocuments) {
+							  let doc = searchDocuments[key];
+							this.add({
+								url: key,
+								title: doc.title,
+								path: doc.path,
+								content: doc.content
+							});  
+						  }
+						})
+				  },				  
+				  computed: {
+					searchResults: function() {
+						if (this.filter) {
+							let searchResult = this.searchIndex.search(this.filter);
+							let actionUuids = searchResult.map(match => searchDocuments[match.ref]['action-uuid']).join(" ");
+							setTimeout(() => {
+								let treeSearchCallback = $('#nsd-site-map-tree').jstree(true).search;
+								if (treeSearchCallback) {
+									$('#nsd-site-map-tree').jstree(true).search(actionUuids);								
+								}
+							});
+							
+							return searchResult.map(function(e) {
+								let doc = searchDocuments[e.ref];
+								let titleMatches = [];
+								let contentMatches = [];
+								let matchMetaData = e.matchData.metadata;
+								for (const term in matchMetaData) {
+									if (matchMetaData[term]['title']) {
+										let positions = matchMetaData[term]['title'].position;
+										for (const match in positions) {
+											titleMatches.push(positions[match]);
+										}										
+									}
+									if (matchMetaData[term]['content']) {
+										let positions = matchMetaData[term]['content'].position;
+										for (const match in positions) {
+											contentMatches.push(positions[match]);
+										}										
+									}
+								}
+								
+								// Title highlighting
+								titleMatches.sort(function (a, b) { return a[0] - b[0] });
+								let titleElements = [];
+								let idx = 0;
+								for (const matchIdx in titleMatches) {
+									let match = titleMatches[matchIdx];
+									if (match[0] > idx) {
+										titleElements.push(doc.title.substring(idx, match[0]));
+									}
+									idx =  match[0] + match[1];
+									titleElements.push(`<span class='nsd-mark'>${doc.title.substring(match[0], idx)}</span>`);
+								}
+								if (idx < doc.title.length - 1) {
+									titleElements.push(doc.title.substring(idx, doc.title.length));
+								}
+								
+								// Content ellipsing and highlighting
+								contentMatches.sort(function (a, b) { return a[0] - b[0] });
+								let contentElements = [];
+								let snippetLength = 10;
+								idx = 0;
+								for (const matchIdx in contentMatches) {
+									let match = contentMatches[matchIdx];
+									if (match[0] > idx) {
+										let words = doc.content.substring(idx, match[0]).split(' ');
+										let snippetedWords = [];
+										if (idx == 0) {
+											if (words.length <= snippetLength) {
+												snippetedWords = words;
+											} else {
+												snippetedWords.push("&hellip;");
+												words.slice(words.length - snippetLength, words.length).forEach(e => snippetedWords.push(e));
+											}
+										} else {
+											if (words.length <= snippetLength * 2) {
+												snippetedWords = words;
+											} else {
+												words.slice(0, snippetLength).forEach(e => snippetedWords.push(e));
+												snippetedWords.push("&hellip;");
+												words.slice(words.length - snippetLength, words.length).forEach(e => snippetedWords.push(e));
+											}
+											
+										}
+										contentElements.push(snippetedWords.join(' '));
+									}
+									idx =  match[0] + match[1];
+									contentElements.push(`<span class='nsd-mark'>${doc.content.substring(match[0], idx)}</span>`);
+								}
+								if (idx < doc.content.length - 1) {
+									let words = doc.content.substring(idx, doc.content.length).split(' ');
+									if (idx == 0) {
+										if (words.length < snippetLength * 2) {
+											contentElements.push(doc.content);
+										} else {
+											let snippetedWords = [];
+											words.slice(0, snippetLength * 2).forEach(e => snippetedWords.push(e));
+											snippetedWords.push("&hellip;");
+											contentElements.push(snippetedWords.join(' '));
+										}
+									} else {
+										let snippetedWords = [];
+										if (words.length <= snippetLength) {
+											snippetedWords = words;
+										} else {
+											words.slice(0, snippetLength).forEach(e => snippetedWords.push(e));
+											snippetedWords.push("&hellip;");
+										}
+										contentElements.push(snippetedWords.join(' '));
+									}
+								}
+								return {
+									title: `<h5><a href="${e.ref}">${titleElements.join('')}</a></h5>`,
+									path: doc.path,
+									content: contentElements.join('')
+								};									
+							});
+						} 
+						setTimeout(() => {
+							let treeSearchCallback = $('#nsd-site-map-tree').jstree(true).search;
+							if (treeSearchCallback) {
+								$('#nsd-site-map-tree').jstree(true).search('');								
+							}
+						});
+						return [];
+					}  
+				  }
+			});   			
+		</script>
+		
+
+<script>$(document).ready( function() {
+$('#nsd-site-map-tree').jstree(function(tree) { tree.state.filter = function(state) { delete state.core.selected; return state; }; tree.search.search_callback = (results, node) => results.split(' ').includes(node.original['data-nsd-label-uuid']); return tree; }({"core":{"data":[{"a_attr":{"onclick":"window.location='https://www.nasdanika.org';"},"children":[{"children":[{"a_attr":{"onclick":"window.location='index.html';"},"children":[{"children":[{"a_attr":{"onclick":"window.location='cloud/index.html';"},"children":[{"children":[{"a_attr":{"onclick":"window.location='cloud/s3.html';"},"data-nsd-label-uuid":"d679e16f-bcae-49e0-ae7d-42df3319e0c5","id":"5b1dfdae-f7a4-414b-a196-82c5fd4d68e7","text":"S3 Bucket","type":"leaf"},{"a_attr":{"onclick":"window.location='cloud/code-pipeline.html';"},"data-nsd-label-uuid":"c75df6bc-7045-49b9-8e3b-f843670c2ea8","id":"6638495d-b19d-4181-ba1a-4eb8a9868001","text":"CodePipeline","type":"leaf"},{"a_attr":{"onclick":"window.location='cloud/organizations.html';"},"data-nsd-label-uuid":"41af391b-fb24-4691-a09f-7ef2fe70fb10","id":"5a3fac26-6381-4fd7-98ce-88dd19035753","text":"Organizations","type":"leaf"},{"a_attr":{"onclick":"window.location='cloud/sso.html';"},"data-nsd-label-uuid":"c0c3c66e-77a1-46ef-8d31-f9a71b2cd353","id":"2b8090fc-8d27-4179-b8ae-46b6deb98f8d","text":"Single Sign-on","type":"leaf"},{"a_attr":{"onclick":"window.location='cloud/account-baseline.html';"},"data-nsd-label-uuid":"b784293d-b03a-4604-a200-ae2e17e6e3dd","id":"1fe72ecd-5c84-4183-831e-2dc12bec3a61","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='cloud/service-catalog.html';"},"data-nsd-label-uuid":"cfc80a56-6223-40ac-ba0f-d9766f0e710d","id":"843c169f-2083-4e53-8a48-089265fcfdbf","text":"Service Catalog","type":"leaf"},{"a_attr":{"onclick":"window.location='cloud/parameter-store.html';"},"data-nsd-label-uuid":"64773b3b-3113-4d30-9d93-092050ed7708","id":"5aa5fd7a-0b7e-4c6b-8bbe-e41257bdf47e","text":"Parameter Store","type":"leaf"},{"a_attr":{"onclick":"window.location='cloud/core-ou.html';"},"data-nsd-label-uuid":"0d2df78b-e41f-4518-b149-47aea59e6cd5","id":"0b81efc2-ec1a-4c13-a2d5-4e672d6a5d05","text":"Core OU","type":"leaf"}],"text":"Children"}],"data-nsd-label-uuid":"15cb8548-0b7a-449b-a56a-0bab5f8cef2e","icon":"fas fa-cloud","id":"89d15fe3-8cce-4e26-8261-7c659f888bc6","text":"AWS Cloud","type":"leaf"},{"children":[{"children":[{"a_attr":{"onclick":"window.location='accounts/shared-services/index.html';"},"children":[{"children":[{"a_attr":{"onclick":"window.location='accounts/shared-services/account-baseline.html';"},"data-nsd-label-uuid":"ef4fbb63-f294-4c04-961e-19bf130e3686","id":"9876a22d-ab4c-453e-9954-05cb5b4ccffa","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/shared-services/vpc.html';"},"data-nsd-label-uuid":"f7620768-b3d2-4fbc-968d-cdae2942c8d5","id":"543888d8-5119-4ed3-91d5-8fc398a4f11a","text":"VPC","type":"leaf"}],"text":"Children"}],"data-nsd-label-uuid":"662313a3-445a-486b-9d67-01d0e91dcb04","id":"89cee72a-2535-4f50-9357-9c69779d4b45","text":"Shared Services","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/log-archive/index.html';"},"children":[{"children":[{"a_attr":{"onclick":"window.location='accounts/log-archive/account-baseline.html';"},"data-nsd-label-uuid":"b5784d1f-f2d3-4f1c-be2e-1d9393532ff8","id":"0c8ebca8-dd6f-4f89-8b6a-0f23a6542785","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/log-archive/cloud-trail-and-config-logs.html';"},"data-nsd-label-uuid":"453b51b5-e2c7-4a66-9e8e-bb085d20b410","id":"70d5c32b-90ca-4a4c-991e-34f24f2bd81a","text":"Aggregate CloudTrail and Config Logs","type":"leaf"}],"text":"Children"}],"data-nsd-label-uuid":"1df47567-c9da-401a-b721-f17c235541b8","id":"bda6c673-1abb-48bf-9dc0-fb4cc3840552","text":"Log Archive","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/security/index.html';"},"children":[{"children":[{"a_attr":{"onclick":"window.location='accounts/security/account-baseline.html';"},"data-nsd-label-uuid":"ac7b87c2-2f98-4fd4-a9ee-8417bdbb65c1","id":"bdee69ec-1ce5-4ade-8fa1-4980e9c71a67","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/security/security-cross-account-roles.html';"},"data-nsd-label-uuid":"62c247a5-9347-47e4-88be-b1f2c1b16c54","icon":"fas fa-key","id":"fa57968d-427d-4b44-8dd0-c8a435ed64f7","text":"Security Cross-Account Roles","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/security/guard-duty.html';"},"data-nsd-label-uuid":"c7a0e48a-d8c9-4575-b03f-37d17954c478","id":"ae27f999-e780-4a96-96f9-c49929365205","text":"GuardDuty","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/security/sns.html';"},"data-nsd-label-uuid":"a3584f8e-0663-4a22-b8ed-f71010795fc7","id":"b189f225-9697-43de-8140-268fc99a52f0","text":"SNS","type":"leaf"}],"text":"Children"}],"data-nsd-label-uuid":"fe005557-4b57-4ade-96f5-b2fbd48223a0","id":"5dcd92f8-1d21-4b5c-8dd5-f39057517f48","text":"Security","type":"leaf"}],"text":"Children"}],"data-nsd-label-uuid":"706266d1-0205-4421-8a5e-9fa10b2e640c","id":"nsd_n","text":"Accounts","type":"leaf"}],"text":"Children"}],"data-nsd-label-uuid":"b98ff549-920a-4307-8089-3f1bb33cf037","icon":"fab fa-aws","id":"75a07fc1-cd30-49f7-a669-5c4159fa7a13","text":"My AWS Solution","type":"leaf"},{"data-nsd-label-uuid":"d1d7db6d-c687-497f-b74e-555293bbd7e0","icon":"fas fa-search","id":"e1375185-1ca0-4428-846a-b0b8449fc89a","text":"Search","type":"leaf"}],"text":"Children"},{"children":[{"a_attr":{"onclick":"window.location='https://github.com/Nasdanika/demo-action-site';"},"data-nsd-label-uuid":"6359145a-53a0-4429-8670-37c7faf00b10","icon":"fab fa-github","id":"34161d19-1c9d-49d2-926f-5dcca32403f7","text":"Source","type":"leaf"}],"text":"Navigation"}],"data-nsd-label-uuid":"3c51362f-8639-4a74-8b7e-ce2788dca0ae","icon":"https://docs.nasdanika.org/images/nasdanika-logo.png","id":"5a82bc21-55cf-4c08-ba03-9acd89d21f21","text":"Nasdanika","type":"leaf"}]},"search":{"show_only_matches":true},"plugins":["state","search"],"state":{"key":"nsd-site-map-tree"}}));
+});</script>
+				
+		</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col nsd-app-footer">
+          <ul class="nav nsd-app-footer-navs">
+            <li class="nav-item">
+              <a href="https://github.com/Nasdanika/demo-action-site" data-nsd-label-uuid="6359145a-53a0-4429-8670-37c7faf00b10" class="nav-link"><span class="fab fa-github nsd-app-label-icon"></span>Source</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
