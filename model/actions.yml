@@ -46,9 +46,17 @@ app-action:
                 - app-action:
                     text: S3 Bucket
                     location: s3.html
+                    uris: aws://services/s3
+                    content:
+                      content-markdown:
+                        source:
+                          content-resource:
+                            location: s3.md
+                            interpolate: true
                 - app-action:
                     text: CodePipeline
                     location: code-pipeline.html
+                    uris: aws://services/code-pipeline
                 - app-action:
                     text: Organizations
                     location: organizations.html
