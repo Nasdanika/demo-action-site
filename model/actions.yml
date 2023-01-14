@@ -77,10 +77,12 @@ app-action:
                     location: core-ou.html              
           - app-label:
               text: Accounts
+              uris: my-solution://accounts
               children:
                 - app-action:
                     text: Shared Services
                     location: accounts/shared-services/index.html
+                    uris: shared-services
                     children:
                       - app-action:
                           text: Account Baseline
