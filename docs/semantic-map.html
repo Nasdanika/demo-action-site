@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="EN">
   <head>
-    <title>My AWS Solution</title>
+    <title>Semantic map</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cerulean/bootstrap.min.css" id="nsd-bootstrap-theme-stylesheet">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -78,18 +78,18 @@ window.nsdJsTreeSearchCallback = function(str, node) {
             <li class="nav-item">
               <a href="search.html" data-nsd-label-uuid="1c7dbee3-4932-4787-96d1-f01eec7ba921" class="nav-link"><span class="fas fa-search nsd-app-label-icon"></span>Search</a>
             </li>
-            <li class="nav-item">
-              <a href="semantic-map.html" data-nsd-label-uuid="a0433c0c-37be-416b-8a3f-52d3f6adafe9" class="nav-link">Semantic map</a>
+            <li class="nav-item"><span data-nsd-label-uuid="a0433c0c-37be-416b-8a3f-52d3f6adafe9" class="navbar-text">Semantic map</span>
             </li>
           </ul>
         </div>
       </div>
       <div class="row">
         <div class="col nsd-app-navbar">
-          <ul class="navbar navbar-light navbar-expand-lg"><span title="Principal action" data-nsd-label-uuid="84c65c04-ea1e-4b09-a219-f515db1a5fbf" class="navbar-brand"><span class="fab fa-aws nsd-app-label-icon"></span>My AWS Solution</span>
-            <button type="button" data-toggle="collapse" data-target="#nsd_2r" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
+          <ul class="navbar navbar-light navbar-expand-lg">
+            <a href="index.html" title="Principal action" data-nsd-label-uuid="84c65c04-ea1e-4b09-a219-f515db1a5fbf" class="navbar-brand"><span class="fab fa-aws nsd-app-label-icon"></span>My AWS Solution</a>
+            <button type="button" data-toggle="collapse" data-target="#nsd_23" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"><span class="navbar-toggler-icon"></span>
             </button>
-            <div id="nsd_2r" class="collapse navbar-collapse"></div>
+            <div id="nsd_23" class="collapse navbar-collapse"></div>
           </ul>
         </div>
       </div>
@@ -115,107 +115,128 @@ window.nsdJsTreeSearchCallback = function(str, node) {
               <a>Accounts</a>
             </div>
             <div id="nsd-app-nav-item-80e6fc9d-dc52-48e5-acfb-14e6ffd95425-collapsible" class="card-body p-1 nsd-collapsible collapse show">
-              <input type="text" id="nsd_3d_searchInput" title="Full-text search. You can use wildcards, e.g. 'foo*' or 'f*o'; title or content fields, e.g. 'title:foo* bar'; boosts, e.g. 'foo^10 bar'; fuzzy matches, e.g. 'foo~1'; and term presence, e.g. '+foo bar -baz'" class="form-control">
+              <input type="text" id="nsd_2p_searchInput" title="Full-text search. You can use wildcards, e.g. 'foo*' or 'f*o'; title or content fields, e.g. 'title:foo* bar'; boosts, e.g. 'foo^10 bar'; fuzzy matches, e.g. 'foo~1'; and term presence, e.g. '+foo bar -baz'" class="form-control">
               <div id="a75d4e62-1265-49ed-bbab-8238cd566299-navigation-panel-nsd-app-nav-item-80e6fc9d-dc52-48e5-acfb-14e6ffd95425"></div>
             </div>
           </div>
           <script>$(document).ready( function() {
 $('#a75d4e62-1265-49ed-bbab-8238cd566299-navigation-panel-nsd-app-nav-item-80e6fc9d-dc52-48e5-acfb-14e6ffd95425').jstree(function(tree) { tree.state.filter = function(state) { delete state.core.selected; return state; };  tree.search.search_callback = function(searchStr, node) { if (typeof window.nsdJsTreeSearchCallback === 'function') return window.nsdJsTreeSearchCallback(searchStr, node); var sf = new $.vakata.search(searchStr, true, { caseSensitive : false, fuzzy : false }); return sf.search(node.text).isMatch; }; return tree; }({"core":{"data":[{"a_attr":{"onclick":"window.location='accounts/shared-services/index.html';"},"children":[{"a_attr":{"onclick":"window.location='accounts/shared-services/account-baseline.html';"},"data-nsd-label-uuid":"fa8e8180-e8e4-4cbc-a210-f8efc5abeb9f","id":"nsd-app-nav-item-b0627b71-0d3a-400e-b122-2e1ca3ff194a","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/shared-services/vpc.html';"},"data-nsd-label-uuid":"66b2ce8d-c1f9-428c-a6d3-76ff6446562c","id":"nsd-app-nav-item-59ea4e9b-125e-448c-b4a0-b6f374c743a1","text":"VPC","type":"leaf"}],"data-nsd-label-uuid":"719b87ca-7187-49c2-b6e3-ce49e62534fc","id":"nsd-app-nav-item-9309e77d-1b77-4bb2-9d56-87c1877e1cad","text":"Shared Services"},{"a_attr":{"onclick":"window.location='accounts/log-archive/index.html';"},"children":[{"a_attr":{"onclick":"window.location='accounts/log-archive/account-baseline.html';"},"data-nsd-label-uuid":"4817b5f2-b881-495f-b39d-c8377028cc92","id":"nsd-app-nav-item-cbf785dc-051c-4b02-b469-1a6198618899","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/log-archive/cloud-trail-and-config-logs.html';"},"data-nsd-label-uuid":"cc12fd0d-1904-4d0f-9d6a-cf169d5c8ec6","id":"nsd-app-nav-item-bb2ca0a7-4409-4302-8726-b41c2cc1f0f3","text":"Aggregate CloudTrail and Config Logs","type":"leaf"}],"data-nsd-label-uuid":"c6468a9e-9cb1-46e7-9e42-f6a82f261b09","id":"nsd-app-nav-item-25767ef7-8688-45f8-b7f7-763dff353b6c","text":"Log Archive"},{"a_attr":{"onclick":"window.location='accounts/security/index.html';"},"children":[{"a_attr":{"onclick":"window.location='accounts/security/account-baseline.html';"},"data-nsd-label-uuid":"2755eec4-812b-4c61-a336-79f015b92e69","id":"nsd-app-nav-item-66c7e844-a382-432c-b597-9b75aaba7d28","text":"Account Baseline","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/security/security-cross-account-roles.html';"},"data-nsd-label-uuid":"c0c73ff1-03f6-4750-a32a-6703952f8609","icon":"fas fa-key","id":"nsd-app-nav-item-341997ac-eaf9-4ecc-bc28-87181ebf7ce8","text":"Security Cross-Account Roles","type":"leaf"},{"a_attr":{"onclick":"window.location='accounts/security/guard-duty.html';"},"data-nsd-label-uuid":"a60bc048-64e2-463f-b301-bce7bc5909d2","id":"nsd-app-nav-item-4ff52cc0-0a6a-4e0c-8f77-b7d7ca814ef0","text":"GuardDuty","type":"leaf"},{"a_attr":{"title":"Simple Notification Service","onclick":"window.location='accounts/security/sns.html';"},"data-nsd-label-uuid":"609a66bf-da90-4cc8-88eb-5f7384e401c1","id":"nsd-app-nav-item-135fcd8b-4c5c-4c3e-a9de-232e04d15ccf","text":"SNS","type":"leaf"}],"data-nsd-label-uuid":"9656bfa8-41e5-4382-abf6-08cf5941df00","id":"nsd-app-nav-item-bc44281b-b883-4612-9656-b838d68d5a3c","text":"Security"}]},"search":{"show_only_matches":true,"show_only_matches_children":true},"types":{"leaf":{"icon":"jstree-file"}},"plugins":["state","type","search"],"state":{"key":"a75d4e62-1265-49ed-bbab-8238cd566299-navigation-panel"}}));
 // Tokens: searchInputSelector, timer, treeSelector
-$('#nsd_3d_searchInput').keyup(function () {
-    if (window['nsd_jstTreeSearchTimer_nsd_3e']) { 
-		clearTimeout(window['nsd_jstTreeSearchTimer_nsd_3e']); 
+$('#nsd_2p_searchInput').keyup(function () {
+    if (window['nsd_jstTreeSearchTimer_nsd_2q']) { 
+		clearTimeout(window['nsd_jstTreeSearchTimer_nsd_2q']); 
 	}
-    window['nsd_jstTreeSearchTimer_nsd_3e'] = setTimeout(function () {
-      var v = $('#nsd_3d_searchInput').val();
+    window['nsd_jstTreeSearchTimer_nsd_2q'] = setTimeout(function () {
+      var v = $('#nsd_2p_searchInput').val();
       $('#a75d4e62-1265-49ed-bbab-8238cd566299-navigation-panel-nsd-app-nav-item-80e6fc9d-dc52-48e5-acfb-14e6ffd95425').jstree(true).search(v);
     }, 250);
   });
 
 });</script>
         </div>
-        <div data-nsd-label-uuid="84c65c04-ea1e-4b09-a219-f515db1a5fbf" class="col nsd-app-content-panel">
+        <div data-nsd-label-uuid="a0433c0c-37be-416b-8a3f-52d3f6adafe9" class="col nsd-app-content-panel">
           <div class="container-fluid">
+            <div class="row nsd-app-content-panel-title-and-items-row">
+              <div class="col-auto">
+                <h1><span data-nsd-label-uuid="a0433c0c-37be-416b-8a3f-52d3f6adafe9" class="nsd-app-content-panel-title">Semantic map</span>
+                </h1>
+              </div>
+            </div>
             <div class="row nsd-app-content-panel-content-row">
               <div class="col">
                 <div class="container-fluid">
                   <div class="row">
-                    <div class="col"><p>This is a demo of a web site generated from an action model with representations. Diagram elements below are linked to the pages (actions) of respective components.</p>
-<p></p><div class="mxgraph" style="max-width:100%;border:1px solid transparent;" data-mxgraph="{&quot;toolbar&quot;:&quot;zoom layers tags lightbox&quot;,&quot;highlight&quot;:&quot;#0000ff&quot;,&quot;nav&quot;:true,&quot;edit&quot;:&quot;_blank&quot;,&quot;xml&quot;:&quot;<mxfile agent=\&quot;5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/20.7.4 Chrome/106.0.5249.199 Electron/21.3.3 Safari/537.36\&quot; etag=\&quot;-xiCb_Sx2SR5sMI7G_ps\&quot; host=\&quot;Electron\&quot; modified=\&quot;2023-01-13T23:57:06.017Z\&quot; pages=\&quot;1\&quot; type=\&quot;device\&quot; version=\&quot;20.7.4\&quot;><diagram id=\&quot;Ht1M8jgEwFfnCIfOTk4-\&quot; name=\&quot;AWS Solution\&quot;>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<\/diagram><\/mxfile>&quot;,&quot;resize&quot;:true}"></div>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/Nasdanika/drawio@dev/src/main/webapp/js/viewer-static.min.js"></script>
-<p></p>
-<p>In this demo only this page (then principal action) has a representation. In general there might be multiple representations per action. Connections can also be linked to pages or page sections.</p>
-<h2><a href="#table-of-contents" id="table-of-contents">Table of Contents</a></h2>
-<p>This table of contents was generated from the diagram. It reflects the containment hierarchy of diagram elements.</p>
-<ol>
-  <li>
-    <a href="cloud/index.html">AWS Cloud</a>
-    <ol>
-      <li>
-        <a href="cloud/code-pipeline.html">AWS CodePipeline</a>
-        <ol>
-          <li>A named connection</li>
-        </ol></li>
-      <li>
-        <a href="cloud/organizations.html">AWS Organizations</a>
-        <ol></ol></li>
-      <li>
-        <a href="cloud/parameter-store.html">AWS Parameter Store</a>
-        <ol></ol></li>
-      <li>
-        <a href="cloud/service-catalog.html">AWS Service Catalog</a>
-        <ol></ol></li>
-      <li>
-        <a href="cloud/sso.html">AWS Single Sign-on</a>
-        <ol></ol></li>
-      <li>
-        <a href="cloud/account-baseline.html">Account Baseline</a>
-        <ol></ol></li>
-      <li>
-        <a href="cloud/s3.html">Amazon S3 Bucket</a> - A tooltip for S3 bucket.
-        <ol></ol></li>
-      <li>
-        <a href="cloud/core-ou.html">Core OU</a>
-        <ol></ol></li>
-    </ol></li>
-  <li>
-    <a href="accounts/log-archive/index.html">Log Archive Account</a>
-    <ol>
-      <li>
-        <a href="accounts/log-archive/account-baseline.html">Account Baseline</a>
-        <ol></ol></li>
-      <li>
-        <a href="accounts/log-archive/cloud-trail-and-config-logs.html">Aggregate CloudTrail and Config Logs</a>
-        <ol></ol></li>
-    </ol></li>
-  <li>
-    <a href="accounts/security/index.html">Security Account</a>
-    <ol>
-      <li>
-        <a href="accounts/security/account-baseline.html">Account Baseline</a>
-        <ol></ol></li>
-      <li>
-        <a href="accounts/security/guard-duty.html">Amazon GuardDuty</a>
-        <ol></ol></li>
-      <li>
-        <a href="accounts/security/sns.html">Amazon SNS</a>
-        <ol></ol></li>
-      <li>
-        <a href="accounts/security/security-cross-account-roles.html">Security Cross-Account Roles</a>
-        <ol></ol></li>
-    </ol></li>
-  <li>
-    <a href="accounts/shared-services/index.html">Shared Services Account</a>
-    <ol>
-      <li>
-        <a href="accounts/shared-services/account-baseline.html">Account Baseline</a>
-        <ol></ol></li>
-      <li>
-        <a href="accounts/shared-services/vpc.html">Amazon VPC</a>
-        <ol></ol></li>
-    </ol></li>
-</ol>
-</div>
+                    <div class="col">     	<div id="semantic-map-app" class="container-fluid">
+     		<div class="row">
+     			<div class="col">
+					<b-form-group label="Filter" label-for="filter-input" label-cols-sm="3" label-align-sm="right" label-size="sm" class="mb-0" description="You can use wildcards, e.g. 'foo*' or 'f*o'; title or content fields, e.g. 'title:foo* bar'; boosts, e.g. 'foo^10 bar'; fuzzy matches, e.g. 'foo~1'; and term presence, e.g. '+foo bar -baz'">
+			          <b-input-group size="sm">
+			            <b-form-input id="filter-input" v-model="filter" type="search" placeholder="Type to Search"></b-form-input>
+			
+			            <b-input-group-append>
+			              <b-button :disabled="!filter" @click="filter = ''">Clear</b-button>
+			            </b-input-group-append>
+			          </b-input-group>
+			        </b-form-group>
+			        
+				    <b-table striped hover :items="items" :fields="fields">
+				      <template #cell(element)="data">
+				        <a :href="data.value.location">{{data.value.text}}
+				      </a></template>				    
+				    </b-table>
+	        	</div>
+	        </div>	        
+     	</div>
+     
+		<script>		      
+			new Vue({
+				  el: '#semantic-map-app',
+				  data: {
+			        	filter: null,
+			        	semanticMap: {"my-solution://accounts/shared-services/children/0":{"location":"accounts/shared-services/account-baseline.html","text":"Account Baseline"},"my-solution://accounts/shared-services/children/1":{"location":"accounts/shared-services/vpc.html","text":"VPC"},"my-solution://accounts/children/2/children/2":{"location":"accounts/security/guard-duty.html","text":"GuardDuty"},"my-solution://accounts/children/2/children/3":{"tooltip":"Simple Notification Service","location":"accounts/security/sns.html","text":"SNS"},"my-solution://accounts/children/2/children/0":{"location":"accounts/security/account-baseline.html","text":"Account Baseline"},"my-solution://accounts/children/2/children/1":{"location":"accounts/security/security-cross-account-roles.html","text":"Security Cross-Account Roles"},"my-solution://accounts/shared-services":{"location":"accounts/shared-services/index.html","text":"Shared Services"},"my-solution://accounts/children/1/children/0":{"location":"accounts/log-archive/account-baseline.html","text":"Account Baseline"},"my-solution://accounts":{"text":"Accounts"},"aws://services/s3":{"location":"cloud/s3.html","text":"S3 Bucket"},"my-solution://accounts/children/1/children/1":{"location":"accounts/log-archive/cloud-trail-and-config-logs.html","text":"Aggregate CloudTrail and Config Logs"},"aws://services/code-pipeline":{"location":"cloud/code-pipeline.html","text":"CodePipeline"},"my-solution://accounts/children/1":{"location":"accounts/log-archive/index.html","text":"Log Archive"},"my-solution://accounts/children/2":{"location":"accounts/security/index.html","text":"Security"}},
+			        	fields: [
+			                {
+			                  key: 'element',
+			                  label: "Element",
+			                  sortable: true
+			                },
+			                {
+			                  key: 'uri',
+			                  label: "URI",
+			                  sortable: true
+			                },
+			                {
+			                  key: 'description',
+			                  label: 'Description',
+			                  sortable: true
+			                }
+			              ]
+				  },				  
+				  computed: {
+					items: function() {
+						const ret = []; 
+						for (let uri in this.semanticMap) {
+							let semanticEntry = this.semanticMap[uri];
+							let item = {
+								uri: uri,
+								description: semanticEntry.tooltip,
+								element: {
+									location: semanticEntry.location,
+									text: semanticEntry.text
+								}
+							};
+							ret.push(item);
+						}
+						
+						return ret.filter(item => {
+							if (this.filter) {
+								if (item.uri && item.uri.toLowerCase().includes(this.filter.toLowerCase())) {
+									return true;
+								}
+								if (item.description && item.description.toLowerCase().includes(this.filter.toLowerCase())) {
+									return true;
+								}
+								if (item.element.text && item.element.text.toLowerCase().includes(this.filter.toLowerCase())) {
+									return true;
+								}
+								return false;
+							}
+							return true;
+						}).sort((a, b) => {
+							if (a.element.text) {
+								if (b.element.text) {
+									return a.element.text.localeCompare(b.element.text);
+								}					
+								return -1;
+							}
+							return 1;
+						}); 						
+					}
+				  }
+			});   			
+		</script>
+				
+		</div>
                   </div>
                 </div>
               </div>

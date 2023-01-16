@@ -2,112 +2,117 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/log-archive/account-baseline.html</loc>
-    <lastmod>2023-01-13T19:15:09.757-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.164-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/log-archive/cloud-trail-and-config-logs.html</loc>
-    <lastmod>2023-01-13T19:15:09.761-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.167-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/log-archive/index.html</loc>
-    <lastmod>2023-01-13T19:15:09.755-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.161-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/security/account-baseline.html</loc>
-    <lastmod>2023-01-13T19:15:09.770-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.173-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/security/guard-duty.html</loc>
-    <lastmod>2023-01-13T19:15:09.778-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.177-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/security/index.html</loc>
-    <lastmod>2023-01-13T19:15:09.765-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.172-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/security/security-cross-account-roles.html</loc>
-    <lastmod>2023-01-13T19:15:09.775-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.176-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/security/sns.html</loc>
-    <lastmod>2023-01-13T19:15:09.780-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.180-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/shared-services/account-baseline.html</loc>
-    <lastmod>2023-01-13T19:15:09.747-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.157-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/shared-services/index.html</loc>
-    <lastmod>2023-01-13T19:15:09.742-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.155-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/accounts/shared-services/vpc.html</loc>
-    <lastmod>2023-01-13T19:15:09.750-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.159-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/cloud/account-baseline.html</loc>
-    <lastmod>2023-01-13T19:15:09.726-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.143-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/cloud/code-pipeline.html</loc>
-    <lastmod>2023-01-13T19:15:09.713-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.136-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/cloud/core-ou.html</loc>
-    <lastmod>2023-01-13T19:15:09.736-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.151-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/cloud/index.html</loc>
-    <lastmod>2023-01-13T19:15:09.708-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.131-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/cloud/organizations.html</loc>
-    <lastmod>2023-01-13T19:15:09.718-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.139-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/cloud/parameter-store.html</loc>
-    <lastmod>2023-01-13T19:15:09.733-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.148-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/cloud/s3.html</loc>
-    <lastmod>2023-01-13T19:15:09.711-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.134-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/cloud/service-catalog.html</loc>
-    <lastmod>2023-01-13T19:15:09.730-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.145-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/cloud/sso.html</loc>
-    <lastmod>2023-01-13T19:15:09.723-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.141-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/index.html</loc>
-    <lastmod>2023-01-13T19:15:09.702-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.128-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://nasdanika.org/demo-action-site/search.html</loc>
-    <lastmod>2023-01-13T19:15:09.783-05:00</lastmod>
+    <lastmod>2023-01-15T19:05:56.183-05:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://nasdanika.org/demo-action-site/semantic-map.html</loc>
+    <lastmod>2023-01-15T19:05:56.185-05:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>

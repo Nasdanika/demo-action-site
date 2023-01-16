@@ -116,6 +116,7 @@ app-action:
                           location: guard-duty.html
                       - app-action:
                           text: SNS
+                          tooltip: Simple Notification Service
                           location: sns.html                      
     - app-action:
         location: ${base-uri}search.html
@@ -125,6 +126,13 @@ app-action:
           content-interpolator:
             source:
               content-resource: search.html
+    - app-action:
+        location: ${base-uri}semantic-map.html
+        text: Semantic map
+        content:
+          content-interpolator:
+            source:
+              content-resource: semantic-map.html
   navigation:
     - app-action:
         icon: fab fa-github

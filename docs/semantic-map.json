@@ -12,6 +12,7 @@
         "text": "GuardDuty"
     },
     "my-solution://accounts/children/2/children/3": {
+        "tooltip": "Simple Notification Service",
         "location": "accounts/security/sns.html",
         "text": "SNS"
     },
@@ -31,6 +32,7 @@
         "location": "accounts/log-archive/account-baseline.html",
         "text": "Account Baseline"
     },
+    "my-solution://accounts": {"text": "Accounts"},
     "aws://services/s3": {
         "location": "cloud/s3.html",
         "text": "S3 Bucket"
@@ -39,7 +41,6 @@
         "location": "accounts/log-archive/cloud-trail-and-config-logs.html",
         "text": "Aggregate CloudTrail and Config Logs"
     },
-    "my-solution://accounts": {"text": "Accounts"},
     "aws://services/code-pipeline": {
         "location": "cloud/code-pipeline.html",
         "text": "CodePipeline"
