@@ -27,7 +27,10 @@
 				    <b-table striped hover :items="items" :fields="fields">
 				      <template #cell(element)="data">
 				        <a :href="data.value.location">{{data.value.text}}</span>
-				      </template>				    
+				      </template>	
+				      <template #cell(uri)="data">
+				        {{data.value.value}} <i class="far fa-copy nsd-copy-to-clipboard" style="cursor:pointer" title="Copy URI to clipboard" :onclick="data.value.onClick"></i> 
+				      </template>	
 				    </b-table>
 	        	</div>
 	        </div>	        
@@ -63,7 +66,10 @@
 						for (let uri in this.semanticMap) {
 							let semanticEntry = this.semanticMap[uri];
 							let item = {
-								uri: uri,
+								uri: {
+									value: uri,
+									onClick: "navigator.clipboard.writeText('" + uri +"')"
+								},
 								description: semanticEntry.tooltip,
 								element: {
 									location: semanticEntry.location,
@@ -75,7 +81,7 @@
 						
 						return ret.filter(item => {
 							if (this.filter) {
-								if (item.uri && item.uri.toLowerCase().includes(this.filter.toLowerCase())) {
+								if (item.uri.value && item.uri.value.toLowerCase().includes(this.filter.toLowerCase())) {
 									return true;
 								}
 								if (item.description && item.description.toLowerCase().includes(this.filter.toLowerCase())) {
