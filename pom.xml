@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nasdanika.demo</groupId>
 	<artifactId>action-site</artifactId>
-	<version>2023.1.0</version>
+	<version>2023.1.1</version>
 	<name>Action site demo</name>
 	<description>Demo of a web site generated from an action model with a Drawio representation.</description>
 	<build>
@@ -18,7 +18,7 @@
 			<plugin>
 				<groupId>org.nasdanika.html</groupId>
 				<artifactId>site-generator-maven-plugin</artifactId>
-				<version>2023.1.1</version>
+				<version>2023.1.2</version>
 				<executions>
 					<execution>
 						<goals>
