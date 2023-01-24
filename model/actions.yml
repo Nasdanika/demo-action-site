@@ -40,6 +40,7 @@ app-action:
               icon: fas fa-cloud
               text: AWS Cloud
               location: cloud/index.html
+              uris: aws://cloud
               content:
                 content-markdown:
                   source:
@@ -76,7 +77,8 @@ app-action:
                     location: parameter-store.html
                 - app-action:
                     text: Core OU
-                    location: core-ou.html              
+                    location: core-ou.html
+                    uris: core-ou              
           - app-label:
               text: Accounts
               uris: my-solution://accounts
