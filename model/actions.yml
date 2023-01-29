@@ -9,6 +9,7 @@ app-action:
         text: My AWS Solution
         location: ${base-uri}index.html 
         tooltip: Principal action
+        uris: nasdanika://my-aws-solution
         content:
           content-markdown: 
             source:
@@ -30,9 +31,6 @@ app-action:
                 It reflects the containment hierarchy of diagram elements.                
                 
                 ${representations/aws/toc}
-                
-                ---
-                
         representations: 
           aws: aws.drawio  
         children:
